@@ -1,12 +1,12 @@
 body {
-  font-family: Sans-Serif;
+  font-family: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   max-width: 800px;
   margin: 0 auto;
   padding: 5px;
 }
 
 a {
-  color: #0000EE;
+  color: #000000;
 }
 
 .invoice {
@@ -16,7 +16,7 @@ a {
 }
 
 .meta {
-  color: #ff8000;
+  color: #faf9f6;
 }
 
 .header .title {
@@ -37,7 +37,7 @@ a {
 }
 
 .supplier {
-  color: #4682B4;
+  color: #000000;
   display: block;
 }
 
@@ -50,7 +50,7 @@ a {
   padding: 1px;
   margin-top: 1em;
   margin-bottom: 1em;
-  background: #ff8000;
+  background: #faf9f6;
   -webkit-print-color-adjust: exact !important;
   color-adjust: exact !important;
 }
@@ -68,8 +68,9 @@ a {
 
 table.items {
   width: 100%;
-  border: 1px solid #ff8000;
+  border: 1px solid #faf9f6;
   border-collapse: collapse;
+
 }
 
 table.items th {
@@ -95,7 +96,7 @@ table.items td {
 }
 
 .name {
-  color: #000080;
+  color: #000000;
 }
 
 .address {
@@ -133,7 +134,7 @@ div.summary .part {
 div.summary .total {
   display: block;
   flex-grow: 1;
-  background: #000080;
+  background: #000000;
   font-size: 140%;
 }
 
@@ -169,7 +170,7 @@ div.summary::after {
 
 .thanks {
   text-align: right;
-  color: #C83200;
+  color: #000000;
   font-size: 200%;
 }
 
@@ -206,7 +207,7 @@ div.print {
 }
 
 div.print a {
-  background: #C83200;
+  background: #000000;
   display: block;
   font-size: 200%;
   color: white;
